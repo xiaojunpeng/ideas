@@ -1,7 +1,96 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
   <version>2.1</version>
-  <metadata-change-set user="肖君鹏" date="2016-11-09T07:18:53.556Z" timestamp="2016-11-09T07:18:53.556Z">
-    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2016-11-09T00:00:00.000Z" resolved="yes"/>
+  <task-change-set user="肖君鹏" date="2016-11-13T15:18:23.032Z" timestamp="2016-11-13T15:18:23.032Z">
+    <change idref="t21" to="t-1" to-position="0" resolved="yes">
+      <change idref="t21" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t21" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t21" attribute="title" type="string" to="201611.14~2016.11.27"/>
+    </change>
+    <change idref="t1" attribute="title" type="string" from="任务 1" to="设计模式六大原则" resolved="yes"/>
+    <change idref="t1" attribute="effort" type="real" from="28800" to="86400" resolved="yes"/>
+    <change idref="t1" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-17T02:15:00.000Z" resolved="yes"/>
+    <change idref="t1" from="t-1" from-position="0" to="t21" to-position="0" resolved="yes"/>
+    <change idref="t12" to="t21" to-position="1" resolved="yes">
+      <change idref="t12" attribute="effort" type="real" from="28800" to="57600"/>
+      <change idref="t12" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-14T00:00:00.000Z"/>
+      <change idref="t12" attribute="title" type="string" to="单例设计模式"/>
+    </change>
+    <change idref="t13" to="t21" to-position="2" resolved="yes">
+      <change idref="t13" attribute="title" type="string" to="Java集合框架"/>
+    </change>
+    <change idref="t14" to="t21" to-position="3" resolved="yes">
+      <change idref="t14" attribute="title" type="string" to="熟悉模块化&amp;路由跳转"/>
+    </change>
+    <change idref="t15" to="t21" to-position="4" resolved="yes">
+      <change idref="t15" attribute="title" type="string" to="排序算法"/>
+    </change>
+    <change idref="t16" to="t21" to-position="5" resolved="yes">
+      <change idref="t16" attribute="effort" type="real" from="28800" to="144000"/>
+      <change idref="t16" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-14T00:00:00.000Z"/>
+      <change idref="t16" attribute="title" type="string" to="读一遍图解http"/>
+    </change>
+    <change idref="t17" to="t21" to-position="6" resolved="yes">
+      <change idref="t17" attribute="title" type="string" to="读与神对话"/>
+    </change>
+    <change idref="t18" to="t21" to-position="7" resolved="yes">
+      <change idref="t18" attribute="title" type="string" to="梳理项目开发流程"/>
+    </change>
+    <change idref="t19" to="t21" to-position="8" resolved="yes">
+      <change idref="t19" attribute="title" type="string" to="日总结&amp;日精进"/>
+    </change>
+    <change idref="t20" to="t21" to-position="9" resolved="yes">
+      <change idref="t20" attribute="title" type="string" to="维护思维导图"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="肖君鹏" date="2016-11-13T15:40:28.340Z" timestamp="2016-11-13T15:40:28.340Z">
+    <change idref="t1" attribute="effort" type="real" from="86400" to="75600" resolved="yes"/>
+    <change idref="t1" attribute="noEarlierThanConstraintDate" type="date" from="2016-11-17T02:15:00.000Z" to="2016-11-21T02:00:00.000Z" resolved="yes"/>
+    <change idref="t12" attribute="effort" type="real" from="57600" to="50400" resolved="yes"/>
+    <change idref="t12" attribute="noEarlierThanConstraintDate" type="date" from="2016-11-14T00:00:00.000Z" to="2016-11-23T16:00:00.000Z" resolved="yes"/>
+    <change idref="t13" attribute="effort" type="real" from="28800" to="126000" resolved="yes"/>
+    <change idref="t13" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-14T01:15:00.000Z" resolved="yes"/>
+    <change idref="t14" attribute="effort" type="real" from="28800" to="126000" resolved="yes"/>
+    <change idref="t14" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t14" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-14T02:00:00.000Z" resolved="yes"/>
+    <change idref="t15" attribute="effort" type="real" from="28800" to="126000" resolved="yes"/>
+    <change idref="t15" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t15" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-20T16:00:00.000Z" resolved="yes"/>
+    <change idref="t16" attribute="effort" type="real" from="144000" to="126000" resolved="yes"/>
+    <change idref="t16" attribute="noEarlierThanConstraintDate" type="date" from="2016-11-14T00:00:00.000Z" to="2016-11-14T02:00:00.000Z" resolved="yes"/>
+    <change idref="t17" attribute="effort" type="real" from="28800" to="252000" resolved="yes"/>
+    <change idref="t17" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t17" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-14T02:00:00.000Z" resolved="yes"/>
+    <change idref="t18" attribute="effort" type="real" from="28800" to="25200" resolved="yes"/>
+    <change idref="t18" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t18" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-24T16:00:00.000Z" resolved="yes"/>
+    <change idref="t19" attribute="effort" type="real" from="28800" to="252000" resolved="yes"/>
+    <change idref="t19" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t19" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-14T02:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="effort" type="real" from="28800" to="252000" resolved="yes"/>
+    <change idref="t20" attribute="internalAssignments" type="string" from="" to="1" resolved="yes"/>
+    <change idref="t20" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-11T08:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="肖君鹏" date="2016-11-13T15:48:39.786Z" timestamp="2016-11-13T15:48:39.786Z">
+    <change idref="t27" to="t21" to-position="10" resolved="yes">
+      <change idref="t27" attribute="effort" type="real" from="28800" to="252000"/>
+      <change idref="t27" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t27" attribute="noEarlierThanConstraintDate" type="date" to="2016-11-14T02:00:00.000Z"/>
+      <change idref="t27" attribute="title" type="string" to="git详解"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="肖君鹏" date="2016-11-13T15:51:27.173Z" timestamp="2016-11-13T15:51:27.173Z">
+    <change idref="t13" attribute="noEarlierThanConstraintDate" type="date" from="2016-11-14T01:15:00.000Z" to="2016-11-14T02:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <resource-change-set user="肖君鹏" date="2016-11-13T15:18:23.032Z" timestamp="2016-11-13T15:18:23.032Z">
+    <change idref="r1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="-;36000,43200,50400,64800,72000,75600;36000,43200,50400,64800,72000,75600;36000,43200,50400,64800,72000,75600;36000,43200,50400,64800,72000,75600;36000,43200,50400,64800,72000,75600;-" resolved="yes"/>
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="2016.11.14~2016.11.27" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="肖君鹏" date="2016-11-13T15:18:23.032Z" timestamp="2016-11-13T15:18:23.032Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2016-11-09T00:00:00.000Z" to="2016-11-14T00:00:00.000Z" resolved="yes"/>
   </metadata-change-set>
 </changelog>

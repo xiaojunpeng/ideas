@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <scenario xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opns="http://www.omnigroup.com/namespace/OmniPlan/v2" id="dwvh1Wzkkif">
-  <start-date>2016-11-09T00:00:00.000Z</start-date>
+  <start-date>2016-11-14T00:00:00.000Z</start-date>
   <prototype-task>
     <task id="t-2">
       <title>任务 1</title>
@@ -51,17 +51,134 @@
     <child-resource idref="r1"/>
   </resource>
   <resource id="r1">
-    <name>资源 1</name>
+    <name>2016.11.14~2016.11.27</name>
     <type>Staff</type>
+    <schedule>
+      <schedule-day day-of-week="monday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="72000" end-time="75600"/>
+      </schedule-day>
+      <schedule-day day-of-week="tuesday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="72000" end-time="75600"/>
+      </schedule-day>
+      <schedule-day day-of-week="wednesday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="72000" end-time="75600"/>
+      </schedule-day>
+      <schedule-day day-of-week="thursday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="72000" end-time="75600"/>
+      </schedule-day>
+      <schedule-day day-of-week="friday">
+        <time-span start-time="36000" end-time="43200"/>
+        <time-span start-time="50400" end-time="64800"/>
+        <time-span start-time="72000" end-time="75600"/>
+      </schedule-day>
+      <calendar name="Time Off" editable="yes" overtime="no"/>
+      <calendar name="Overtime" editable="yes" overtime="yes"/>
+    </schedule>
   </resource>
   <top-task idref="t-1"/>
   <task id="t-1">
     <type>group</type>
-    <child-task idref="t1"/>
+    <child-task idref="t21"/>
   </task>
   <task id="t1">
-    <title>任务 1</title>
-    <effort>28800</effort>
+    <title>设计模式六大原则</title>
+    <effort>75600</effort>
+    <start-constraint-date>2016-11-21T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-21T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t12">
+    <title>单例设计模式</title>
+    <effort>50400</effort>
+    <start-constraint-date>2016-11-23T16:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-23T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t13">
+    <title>Java集合框架</title>
+    <effort>126000</effort>
+    <start-constraint-date>2016-11-14T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-14T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t14">
+    <title>熟悉模块化&amp;路由跳转</title>
+    <effort>126000</effort>
+    <start-constraint-date>2016-11-14T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-14T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t15">
+    <title>排序算法</title>
+    <effort>126000</effort>
+    <start-constraint-date>2016-11-20T16:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-20T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t16">
+    <title>读一遍图解http</title>
+    <effort>126000</effort>
+    <start-constraint-date>2016-11-14T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-14T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t17">
+    <title>读与神对话</title>
+    <effort>252000</effort>
+    <start-constraint-date>2016-11-14T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-14T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t18">
+    <title>梳理项目开发流程</title>
+    <effort>25200</effort>
+    <start-constraint-date>2016-11-24T16:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-24T16:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t19">
+    <title>日总结&amp;日精进</title>
+    <effort>252000</effort>
+    <start-constraint-date>2016-11-14T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-14T02:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t20">
+    <title>维护思维导图</title>
+    <effort>252000</effort>
+    <start-constraint-date>2016-11-11T08:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-11T08:00:00.000Z</start-no-earlier-than>
+  </task>
+  <task id="t21">
+    <title>201611.14~2016.11.27</title>
+    <type>group</type>
+    <child-task idref="t1"/>
+    <child-task idref="t12"/>
+    <child-task idref="t13"/>
+    <child-task idref="t14"/>
+    <child-task idref="t15"/>
+    <child-task idref="t16"/>
+    <child-task idref="t17"/>
+    <child-task idref="t18"/>
+    <child-task idref="t19"/>
+    <child-task idref="t20"/>
+    <child-task idref="t27"/>
+  </task>
+  <task id="t27">
+    <title>git详解</title>
+    <effort>252000</effort>
+    <start-constraint-date>2016-11-14T02:00:00.000Z</start-constraint-date>
+    <assignment idref="r1"/>
+    <start-no-earlier-than>2016-11-14T02:00:00.000Z</start-no-earlier-than>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>

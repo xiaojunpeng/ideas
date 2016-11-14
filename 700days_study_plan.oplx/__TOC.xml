@@ -1,19 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <omniplan xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2" xmlns:opnx="http://www.omnigroup.com/namespace/OmniPlan/v2">
-  <window x="16" y="121" w="1252" h="654">
+  <window x="31" y="107" w="1252" h="654">
     <editing-scenario>dwvh1Wzkkif</editing-scenario>
-    <view>task</view>
+    <view>resource</view>
     <change-tracking/>
     <status-display>basic</status-display>
     <task-view>
-      <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="555">
+      <split-view-divider-position>371</split-view-divider-position>
+      <outline x="0" y="0" w="371" h="555">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
-        <column name="Title" width="191"/>
+        <column name="Title" width="256"/>
         <column name="Effort" width="70"/>
+        <expanded-items idrefs="t21"/>
+        <selected-items-at-filter-time idrefs="t27 t17 t20 t13 t16 t19 t12 t15 t18 t21 t14"/>
       </outline>
-      <gantt-view x="-29" y="0" w="929" h="555">
+      <gantt-view x="-29" y="0" w="864" h="555">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -59,14 +61,14 @@
       </gantt-view>
     </task-view>
     <resource-view>
-      <split-view-divider-position>306</split-view-divider-position>
-      <outline x="0" y="0" w="306" h="608">
+      <split-view-divider-position>282</split-view-divider-position>
+      <outline x="0" y="0" w="267" h="555">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="135"/>
-        <column name="#" width="75"/>
+        <column name="Resource" width="150"/>
+        <column name="#" width="47"/>
       </outline>
-      <timeline x="-20" y="0" w="573" h="608">
+      <timeline x="-137" y="0" w="925" h="555">
         <offtime-display>none</offtime-display>
         <show-project-end/>
         <task-bar-label task-type="group" position="left">
@@ -96,25 +98,24 @@
         <task-bar-label task-type="task" position="right">
           <key/>
         </task-bar-label>
-        <scale scale-name="Automatic" full-day-width="100">
+        <scale scale-name="Automatic" full-day-width="254.279">
           <selected/>
         </scale>
-        <scale scale-name="Day" full-day-width="405"/>
-        <scale scale-name="Hour" full-day-width="21960"/>
-        <scale scale-name="Minute" full-day-width="21600"/>
-        <scale scale-name="Month" full-day-width="11.5"/>
-        <scale scale-name="Quarter" full-day-width="3.2"/>
-        <scale scale-name="Week" full-day-width="54"/>
-        <scale scale-name="Year" full-day-width="0.7875"/>
-        <scale scale-name="legacy-day-widths" full-day-width="1"/>
+        <scale scale-name="Day" full-day-width="1215"/>
+        <scale scale-name="Hour" full-day-width="65880"/>
+        <scale scale-name="Minute" full-day-width="64800"/>
+        <scale scale-name="Month" full-day-width="34.5"/>
+        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Week" full-day-width="162"/>
+        <scale scale-name="Year" full-day-width="2.3625"/>
       </timeline>
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="573">
+      <outline x="0" y="0" w="275" h="531">
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
-        <column name="Resource" width="139"/>
+        <column name="Resource" width="160"/>
         <column name="Custom Work Week" width="20"/>
         <column name="Schedule Exception" width="20"/>
       </outline>
@@ -128,7 +129,7 @@
     </network-view>
   </window>
   <project>
-    <next-task-id>2</next-task-id>
+    <next-task-id>28</next-task-id>
     <next-resource-id>2</next-resource-id>
     <scenario id="dwvh1Wzkkif" name="Actual" filename="Actual.xml"/>
     <date-display dates="true" times="true" seconds="false"/>
