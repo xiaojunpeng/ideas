@@ -1,24 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ScappleDocument Version="1.1" ID="8B11E9CA-65D7-4B1F-8CDB-32E0306A0DEE">
     <Notes>
-        <Note ID="0" FontSize="12.0" Position="32.0,210.0" Width="34.0">
+        <Note ID="0" FontSize="12.0" Position="31.296875,210.347656" Width="34.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>Java</String>
-            <ConnectedNoteIDs>1</ConnectedNoteIDs>
-            <PointsToNoteIDs>1</PointsToNoteIDs>
+            <ConnectedNoteIDs>1-2</ConnectedNoteIDs>
+            <PointsToNoteIDs>1-2</PointsToNoteIDs>
         </Note>
-        <Note ID="1" FontSize="12.0" Position="144.605469,149.984375" Width="56.0">
+        <Note ID="1" FontSize="12.0" Position="145.0,150.0" Width="56.0">
             <Appearance>
                 <Alignment>Left</Alignment>
             </Appearance>
             <String>集合框架</String>
             <ConnectedNoteIDs>0</ConnectedNoteIDs>
         </Note>
+        <Note ID="2" FontSize="12.0" Position="100.0,210.0" Width="32.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>网络</String>
+            <ConnectedNoteIDs>0, 3</ConnectedNoteIDs>
+            <PointsToNoteIDs>3</PointsToNoteIDs>
+        </Note>
+        <Note ID="3" FontSize="12.0" Position="167.0,210.0" Width="55.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>图解Http</String>
+            <ConnectedNoteIDs>2</ConnectedNoteIDs>
+        </Note>
     </Notes>
     <BackgroundShapes></BackgroundShapes>
-    <AutoFit>0-1</AutoFit>
+    <AutoFit>0-3</AutoFit>
     <NoteStyles>
         <Style Name="Blue Bubble" ID="1E1F82FE-8ED4-44EF-9DE1-777D5D244067" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
