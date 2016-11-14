@@ -1,39 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ScappleDocument Version="1.1" ID="8B11E9CA-65D7-4B1F-8CDB-32E0306A0DEE">
-    <Notes></Notes>
+    <Notes>
+        <Note ID="0" FontSize="12.0" Position="32.0,210.0" Width="34.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>Java</String>
+            <ConnectedNoteIDs>1</ConnectedNoteIDs>
+            <PointsToNoteIDs>1</PointsToNoteIDs>
+        </Note>
+        <Note ID="1" FontSize="12.0" Position="144.605469,149.984375" Width="56.0">
+            <Appearance>
+                <Alignment>Left</Alignment>
+            </Appearance>
+            <String>集合框架</String>
+            <ConnectedNoteIDs>0</ConnectedNoteIDs>
+        </Note>
+    </Notes>
     <BackgroundShapes></BackgroundShapes>
+    <AutoFit>0-1</AutoFit>
     <NoteStyles>
-        <Style Name="Title Text" ID="6AC8C31D-7888-410F-B5CC-BB0C14F60CBE" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
-            <FontSize>28.0</FontSize>
-            <IsBold>Yes</IsBold>
-        </Style>
-        <Style Name="Red Text" ID="1C68B079-2DCF-44AF-878A-FC99347DAFB1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
-            <TextColor>1.0 0.0 0.0</TextColor>
+        <Style Name="Blue Bubble" ID="1E1F82FE-8ED4-44EF-9DE1-777D5D244067" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
+            <FillColor>0.840969 0.866828 0.925903</FillColor>
         </Style>
         <Style Name="Brown Bubble" ID="3F50EB73-861B-4B5A-A196-31CAFAA61A79" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
             <BorderColor>0.290055 0.1523 0.182215</BorderColor>
             <FillColor>0.940019 0.892907 0.779716</FillColor>
         </Style>
-        <Style Name="Yellow Bubble" ID="4A2D6019-C28A-4599-A5EF-86854525CBC0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
-            <BorderThickness>1</BorderThickness>
-            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
-            <FillColor>0.906773 0.910625 0.634363</FillColor>
-        </Style>
         <Style Name="Green Bubble" ID="D209F2EF-C8DD-4AB9-8FEF-D202B78ABC92" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
             <BorderColor>0.331867 0.609932 0.356197</BorderColor>
             <FillColor>0.790123 0.882328 0.80198</FillColor>
         </Style>
-        <Style Name="Blue Bubble" ID="1E1F82FE-8ED4-44EF-9DE1-777D5D244067" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
-            <BorderThickness>1</BorderThickness>
-            <BorderColor>0.477193 0.557066 0.76433</BorderColor>
-            <FillColor>0.840969 0.866828 0.925903</FillColor>
-        </Style>
         <Style Name="Pink Bubble" ID="C7162C4E-B5D4-40E6-8500-EAFC5A16554A" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
             <BorderThickness>1</BorderThickness>
             <BorderColor>0.747881 0.366532 0.542813</BorderColor>
             <FillColor>0.918452 0.807302 0.863467</FillColor>
+        </Style>
+        <Style Name="Red Text" ID="1C68B079-2DCF-44AF-878A-FC99347DAFB1" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="Yes" AffectNoteBody="No" AffectFade="No">
+            <TextColor>1.0 0.0 0.0</TextColor>
+        </Style>
+        <Style Name="Title Text" ID="6AC8C31D-7888-410F-B5CC-BB0C14F60CBE" AffectFontStyle="Yes" AffectAlignment="Yes" AffectTextColor="No" AffectNoteBody="No" AffectFade="No">
+            <FontSize>28.0</FontSize>
+            <IsBold>Yes</IsBold>
+        </Style>
+        <Style Name="Yellow Bubble" ID="4A2D6019-C28A-4599-A5EF-86854525CBC0" AffectFontStyle="No" AffectAlignment="No" AffectTextColor="No" AffectNoteBody="Yes" AffectFade="No">
+            <BorderThickness>1</BorderThickness>
+            <BorderColor>0.756763 0.785592 0.373258</BorderColor>
+            <FillColor>0.906773 0.910625 0.634363</FillColor>
         </Style>
     </NoteStyles>
     <UISettings>
@@ -41,5 +58,5 @@
         <DefaultFont>Helvetica</DefaultFont>
         <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
     </UISettings>
-    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
+    <PrintSettings PaperSize="595.000005,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="90.0" BottomMargin="90.0" PaperType="iso-a4" Orientation="Portrait" HorizontalPagination="Clip" VerticalPagination="Auto" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="Yes" PagesAcross="1" PagesDown="1"></PrintSettings>
 </ScappleDocument>
